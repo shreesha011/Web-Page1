@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+.container{
+    padding: 0px 70px;
+    padding-top: 40px;
+}
+
+.navbar-container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list{
+    color: black;
+    font-family: "Orbitron";
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.list-item{
+    display: inline;
+    padding: 10px;
+}
+
+li:nth-child(1){
+    font-weight: 800;
+    font-size: 25px;
+    text-decoration-line: underline;
+    
+}
+
+.button-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+svg{
+    width: 25px;
+    height: 22px;
+    margin: 5px 5px;
+    
+}
+
+.nav-button{
+    width: 130px;
+    padding: 5px 10px;
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Poppins";
+    
+}
+
+.hero-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    height: 81vh;
+    
+   
+}
+
+.hero-container>div img{
+    padding-top:10px;
+    width:420px;
+    height:510px
+    
+}
+
+
+
+.square>img{
+    width:400px;
+    position: absolute;
+    bottom: 0%;
+    left: 11%;
+    z-index: -1;
+        
+}
+
+.star{
+    position: absolute;
+    right:5%;
+    top:30%
+}
+
+.globe{
+    position: absolute;
+    left: 55%;
+    top:19%;
+}
+
+.hero-container>div  h1{
+
+    text-align: center;
+    font-family: "Orbitron";
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.hero-description{
+    padding: 60px;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.button-email,.button-join{
+   width: 120px;
+   height: 30px;
+   border-radius: 9px;
+   color: #7b9294;
+   border: solid black 2px ;
+}
+
+.button-email{
+    margin-left: 370px;
+}
+
+.button-join{
+    background-color: #000;
+    color: #fff;
+
+}
+
+.contact-heading{
+    color: #7b9294;
+    position: absolute;
+    left: 60%;
+    bottom: 6%;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+.icons>span>img{
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+}
+
+.icons{
+    position: absolute;
+    bottom: 0%;
+    left:59%;
+}
+
+
+
+
+
+
+
+
